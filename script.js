@@ -14,6 +14,11 @@ class Person {
 }
 
 class Student extends Person {
+	Constructor(name,age)
+	{
+		this.name=name;
+		this.age=age;
+	}
 	study()
 	{
 		console.log(`${this.name} is studying`);
@@ -21,6 +26,11 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
+	Constructor(name,age)
+	{
+		this.name=name;
+		this.age=age;
+	}
 	teach()
 	{
 		console.log(`${this.name} is teaching`);
